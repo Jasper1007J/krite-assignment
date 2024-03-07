@@ -28,7 +28,7 @@ export default function DashBoard(){
                          <td className="members">Members</td>
                          <td className="categ">Categories</td>
                          <td className="tag">Tags</td>
-                         <td className="meet tmrw"><a>Tomorrow</a> </td>
+                         <td className="meet tmrw"><label>Tomorrow</label> </td>
                          <td className="add"></td>
                     </tr>
                     <tr>
@@ -40,7 +40,7 @@ export default function DashBoard(){
                          <td className="members">Members</td>
                          <td className="categ">Categories</td>
                          <td className="tag">Tags</td>
-                         <td className="meet nocontact"><a>No Contact</a> </td>
+                         <td className="meet nocontact"><label>No Contact</label> </td>
                          <td className="add"></td>
                     </tr>
                     <tr>
@@ -52,7 +52,7 @@ export default function DashBoard(){
                          <td className="members">Members</td>
                          <td className="categ">Categories</td>
                          <td className="tag">Tags</td>
-                         <td className="meet intime"><a>In 30 Minutes</a></td>
+                         <td className="meet intime"><label>In 30 Minutes</label></td>
                          <td className="add"></td>
                     </tr>
                     <tr>
@@ -64,7 +64,7 @@ export default function DashBoard(){
                          <td className="members">Members</td>
                          <td className="categ">Categories</td>
                          <td className="tag">Tags</td>
-                         <td className="meet tmrw"><a>Tomorrow</a> </td>
+                         <td className="meet tmrw"><label>Tomorrow</label> </td>
                          <td className="add"></td>
                     </tr>
                     <tr>
@@ -76,7 +76,7 @@ export default function DashBoard(){
                          <td className="members">Members</td>
                          <td className="categ">Categories</td>
                          <td className="tag">Tags</td>
-                         <td className="meet intime"><a>In 6 hrs</a></td>
+                         <td className="meet intime"><label>In 6 hrs</label></td>
                          <td className="add"></td>
                     </tr>
                     <tr>
@@ -89,7 +89,7 @@ export default function DashBoard(){
                          <td className="members">Members</td>
                          <td className="categ">Categories</td>
                          <td className="tag">Tags</td>
-                         <td className="meet nxtmnth"><a>Next Month</a></td>
+                         <td className="meet nxtmnth"><label>Next Month</label></td>
                          <td className="add"></td>
                     </tr>
                     <tr>
@@ -102,7 +102,7 @@ export default function DashBoard(){
                          <td className="members">Members</td>
                          <td className="categ">Categories</td>
                          <td className="tag">Tags</td>
-                         <td className="meet intime"><a>In 1 hour</a></td>
+                         <td className="meet intime"><label>In 1 hour</label></td>
                          <td className="add"></td>
                     </tr>
                     <tr>
@@ -114,7 +114,7 @@ export default function DashBoard(){
                          <td className="members">Members</td>
                          <td className="categ">Categories</td>
                          <td className="tag">Tags</td>
-                         <td className="meet nocontact"><a>No Contact</a> </td>
+                         <td className="meet nocontact"><label>No Contact</label> </td>
                          <td className="add"></td>
                     </tr>
                     <tr>
@@ -127,7 +127,7 @@ export default function DashBoard(){
                          <td className="members">Members</td>
                          <td className="categ">Categories</td>
                          <td className="tag">Tags</td>
-                         <td className="meet tmrw"><a> Tomorrow</a> </td>
+                         <td className="meet tmrw"><label> Tomorrow</label> </td>
                          <td className="add"></td>
                     </tr>
                     <tr>
@@ -140,7 +140,7 @@ export default function DashBoard(){
                          <td className="members">Members</td>
                          <td className="categ">Categories</td>
                          <td className="tag">Tags</td>
-                         <td className="meet nxtmnth"><a>Next Month</a></td>
+                         <td className="meet nxtmnth"><label>Next Month</label></td>
                          <td className="add"></td>
                     </tr>
 
@@ -149,10 +149,10 @@ export default function DashBoard(){
                          <td className="Last-row">
                          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEMAAABDCAYAAADHyrhzAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEt0lEQVR4nO1bCY8UVRB+eCSABjWiEqNGQrwmu911dPcOYOyI8YoiYXEgakIiHlkliicKKBjxQHcVg2IAxWVhfqgpp3tTW2lmxj36dZP3JS+7edM9r/p7VfXq6HFuBciy7IEoirY2bUxOTt7l6gYiziFiv4HjQCADAxn9oBkYzKQffAa2z4HOIOIhX4OIjjWGjCzLNjmPIKJuIKNAIEMhkKEQyFAIZCgEMhQAYEc4TQow89NeySCiU6UAzLzNeQQz90pZAODF2gUAgLdKAYjoeecRRHSylCVJkgmvdgoAXztPYObNRHStkOVKnufraxciz/P1RHRZEdLxpBXvKg094kOG/0BE7yjHNcvMG12NQMQniOiqkiFyPlUUEeeVMF/0er2b61gbAO5BxD+VVpx0voGIB3Q9AQAOrvWaooGI+LMi4ioAPLLW644EM9+KiN+bAstuUdmCqFUdaZpuEYdtNuBV1xSkabqFiC4aQl5BxE9WqwUgu8/MzxLRcTN/rC7THBtyviPighJSjrsXiOjwKpCxwMxPIuJRMz8XRdFtrokAgB3qzC8JeQYA3l4BEfMAkALAp8Y0zokTdU0GIj5lCZEIlZlfX4ZpXE6SBCvMTU6R+10bwMzPmYe6JjlD4VjHJeOSmB4AfGnn4zh+2LUJRPSy1pDSqQopFfN2nGfmxxHxK0PqxSzLtro2goh2mQhRxj5m3qmdrXWKsvOI+I2Z/yNJkgddm8HMU5JAGed3MI7jnRUaclZ2HhF/MBrx68TExH3uRgAiRjqpK8ahovmk57YT0S+GuDNe3rmosU5ZnjKLc0XQtt2Q87fvBtWaRKiI+Jt50BOi+oqMU2ma3k1EF8x1H0vI724ExANnuJhdFg9+XJKtTqdzu5r7vLyeiH63xHW73Q2uzeDB8XjJEPFRnue3yOfyV/mGD016ftbcd7q1JpMkCRLRP+aBDuukSv5Xn3+g7xeTqXhvbLZ1zjQZJG3zhoj3bXY5jAwBM9+BiD/aOETmXRsQRdGj9hiVSrpzbp29dhQZAjENG3cIQeJvXJPBzNvkOLQBVhUR45IhkAcnou/M956uu+Y6NiSLrCjwvHk9IgRSi1Bm9Nmw7y9OHmsyJxpX2OkMBF3i7KSEP4yIsrqtdvrcqHXEZIjoTMU6jcE62VWzYzOjiBAAwGv6PmZ+aNQ9cRzfaYkHgNw1JTPFpUQcdc7dNOo+OSKtf5Eizv9oUZzXYXsURfc6n2DmjTp8JqKfxnFqRan/26oUnoj2jrO2tAb08a2DNi8gov3qIS6Mk2YXLYQl0WUFIUfGqW/qfq8kft4qYL3BsbioqmIuYwRitmAzbEjxZ2Zqamoowbo+WsQz9SOOY9BRYdURJ7mHVLVsjLCMNsF71yv3ye9eVJHorzLvqRVE9IYSeNoIuAkA9lRknysa0kmTtoElXpI4dU39bUZSna0kSR4rQ3HZRZuXrPYoSJ4ukzbd75WuW+1kIOKsEjCpyB/qGAvibIUARdR+H2TMqd14yQMRWlN2NeZFehg0iLyRIRFoIAMDGf2gGRjMpB98BrbYgSLitM/fqJmXYbyT0W/QCGRgIAODZmAwEww+A9vgQImoW7yz1aix3F9F/QsuXWCf3ZQUagAAAABJRU5ErkJggg==" alt="tag" className="img"></img>                         Count
                          </td>
-                         <td className="Last-row"><a>+</a> Add calculation</td>
-                         <td className="Last-row"><a>+</a> Add calculation</td>
-                         <td className="Last-row"><a>+</a> Add calculation</td>
-                         <td className="Last-row"><a>+</a> Add calculation</td>
+                         <td className="Last-row"><label>+</label> Add calculation</td>
+                         <td className="Last-row"><label>+</label> Add calculation</td>
+                         <td className="Last-row"><label>+</label> Add calculation</td>
+                         <td className="Last-row"><label>+</label> Add calculation</td>
                          <td className="meet"></td>
                          <td className="add"></td>
                     </tr>

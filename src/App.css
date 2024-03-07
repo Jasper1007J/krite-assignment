@@ -135,24 +135,24 @@ header {
 .meet{
   padding-left: 2%;
 }
-.tmrw a{
+.tmrw label{
   background-color: rgba(135, 207, 235, 0.574);
   padding: 2%;
   border-radius: 5px;
 }
-.nocontact a,.intime a{
+.nocontact label,.intime label{
   padding: 2%;
   border-radius: 5px;
 }
 
-.nocontact a{
+.nocontact label{
   background-color: rgba(255, 0, 0, 0.378);
 }
 
-.intime a{
+.intime label{
   background-color: rgba(144, 238, 144, 0.547);
 }
-.nxtmnth a{
+.nxtmnth label{
   background-color: #e5e5e5;
   /* width: min-content; */
   padding: 2%;
