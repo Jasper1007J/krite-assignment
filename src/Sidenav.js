@@ -15,7 +15,7 @@ export default function Sidenav(){
          <div className='sidenav-main'>
          <div className='company'>
             <div className='logo'>
-               <a href='#'/>
+               <label href='#'/>
             </div>
             <div className='company-name'>
              <label className='INC'>INC.</label>
